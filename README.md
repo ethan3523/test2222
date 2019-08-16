@@ -1,5 +1,29 @@
 # Nodemail
 
+- [What is Nodemail?](#what-is-nodemail-)
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Explanation](#explanation)
+- [Concepts](#concepts)
+  * [Terminology](#terminology)
+    + [Traditional email:](#traditional-email-)
+    + [Nodemail:](#nodemail-)
+  * [Nodes](#nodes)
+  * [Client "Wallets"](#client--wallets-)
+  * [Receiver Addresses](#receiver-addresses)
+  * [Where is Nodemail](#where-is-nodemail)
+  * [Federation vs. Decentralization](#federation-vs-decentralization)
+  * [Hierarchical Deterministic Keys](#hierarchical-deterministic-keys)
+- [Two party communication (1-to-1)](#two-party-communication--1-to-1-)
+  * [Two party Nodemail-to-Email](#two-party-nodemail-to-email)
+    + [Scenario 1](#scenario-1)
+    + [Scenario 2a](#scenario-2a)
+    + [Scenario 2b (Receiver Address)](#scenario-2b--receiver-address-)
+  * [Communicating with a corportation over Email](#communicating-with-a-corportation-over-email)
+  * [Two party Nodemail-to-Nodemail](#two-party-nodemail-to-nodemail)
+- [Multiparty Communication](#multiparty-communication)
+- [Goals](#goals)
+
 # What is Nodemail?
 
 Nodemail is a decentralzied protocol for communciation which builds upon the concepts of Self-Sovereign Identity, Hierarchical Deterministic Keys (like BIP32), Decentralized Identifiers (DIDs), and distributed content-addressable storage (like IPFS or dat://). It aims to become a technology that helps build a bridge between the current communication landscape and a future in which greater coherence, openness, trust and subtlety are possible. It currently focuses on interoperability with email; however, in general it can be seen as a general system for identity management equally relevant to other forms of digital messaging and transaction.
